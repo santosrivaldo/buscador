@@ -1,0 +1,27 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 0.7em;
+    
+    
+}
+
+
+.toolbar_left {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 30px;
+}
+.toolbar_center {
+    position: relative;
+    left: 50%;
+    font-size: 3em;
+    transform: translate(-50%);
+    
+    
+}
+
+
+
