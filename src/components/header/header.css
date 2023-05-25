@@ -1,27 +1,37 @@
-.toolbar {
+header {
+    background-color:transparent;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  .header {
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    padding: 0.7em;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .logo img {
+    height: 40px;
+  }
+  
+  .search input[type="text"] {
     
-    
-}
-
-
-.toolbar_left {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    font-size: 30px;
-}
-.toolbar_center {
-    position: relative;
-    left: 50%;
-    font-size: 3em;
-    transform: translate(-50%);
-    
-    
-}
-
-
-
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: navy;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #ddd;
+  }
+  

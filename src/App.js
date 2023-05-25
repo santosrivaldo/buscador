@@ -5,8 +5,6 @@ import SingUp from "./pages/singup/singup.js";
 import SingIn from "./pages/singin/singin.js";
 
 
-
-
 function App() {
   return (
     <div className="App">

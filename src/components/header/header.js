@@ -3,14 +3,23 @@ import './header.css'
 function Header() {
     return (
         <div className="Header">
-            <div class="toolbar">
-                <div class="toolbar_left">
-                    <span>Logo</span>
+            <header>
+                <div class="header">
+                    <div class="logo">
+                        <img src="caminho_para_o_logo.png" alt="Logo" />
+                    </div>
+                    <div class="home-header">
+                        <span>Buscador de CEP</span>
+                    </div>
+
+                    <div class="search">
+                        <input type="text" placeholder="Pesquisar" />
+                        <button>Pesquisar</button>
+                    </div>
                 </div>
-                <div class="toolbar_center">
-                    <i>Buscador</i>
-                </div>
-            </div>            
+            </header>
+
+
         </div>
     )
 }
